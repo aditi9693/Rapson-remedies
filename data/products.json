@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "name": "R Kool-L",
+    "slug": "rkoolL",
+    "category": "Gastro",
+    "composition": "Rabeprazole 20 mg (EC) + Levosulpiride 75 mg (SR)",
+    "indications": ["GERD", "Functional dyspepsia", "Gastroparesis", "IBS with constipation"],
+    "images": ["images/products/rkool/img.jpeg","images/products/rkool/img (1).png", "images/products/rkool/img (2).png", "images/products/rkool/img (3).png", "images/products/rkool/img (4).png"],
+    "seo": { "title": "R Kool-L Capsules | GERD & Dyspepsia Treatment", "description": "R Kool-L combines Rabeprazole and Levosulpiride for effective GERD and dyspepsia management.", "keywords": ["R Kool-L", "Rabeprazole Levosulpiride", "GERD medicine"] }
+  },
+  {
+    "id": 2,
+    "name": "Rapkool DSR",
+    "slug": "rapkoolDsr",
+    "category": "Gastro",
+    "composition": "Pantoprazole 40 mg + Domperidone 30 mg (PR)",
+    "indications": ["GERD", "Acid reflux", "Heartburn"],
+    "images": ["images/products/rapkooldsr/img.jpeg","images/products/rapkooldsr/img (1).png", "images/products/rapkooldsr/img (2).png", "images/products/rapkooldsr/img (3).png", "images/products/rapkooldsr/img (4).png"],
+    "seo": { "title": "Rapkool DSR Capsule | Acid Reflux Medicine", "description": "Long-lasting relief from acidity and GERD.", "keywords": ["Rapkool DSR", "Pantoprazole Domperidone"] }
+  },
+  {
+    "id": 3,
+    "name": "Rapkool 40",
+    "slug": "rapkool40",
+    "category": "Gastro",
+    "composition": "Pantoprazole Sodium 40 mg",
+    "indications": ["Acidity", "GERD"],
+    "images": ["images/products/rapkool40/img.jpeg", "images/products/rapkool40/img (2).png", "images/products/rapkool40/img (3).png"],
+    "seo": { "title": "Rapkool 40 Tablet | Acidity Medicine", "description": "24-hour acid suppression for heartburn & GERD.", "keywords": ["Rapkool 40", "Pantoprazole"] }
+  },
+  {
+    "id": 4,
+    "name": "Vitarap-Zyme",
+    "slug": "vitarapZyme",
+    "category": "Digestive Enzyme",
+    "composition": "Fungal Diastase + Pepsin",
+    "indications": ["Indigestion", "Bloating"],
+    "images": ["images/products/vitarapzyme/img.jpeg","images/products/vitarapzyme/img (1).png", "images/products/vitarapzyme/img (2).png", "images/products/vitarapzyme/img (3).png"],
+    "alt": "Vitarap-Zyme – Fungal Diastase and Pepsin digestive enzyme syrup – by Rapson Remedies",
+    "seo": { "title": "Vitarap-Zyme Syrup | Digestive Enzyme", "description": "Improves digestion and reduces bloating.", "keywords": ["Vitarap-Zyme", "digestive enzyme"] }
+  },
+  {
+    "id": 5,
+    "name": "Rap-Zyme Drops",
+    "slug": "rapZymeDrops",
+    "category": "Digestive Enzyme",
+    "composition": "Digestive Enzymes",
+    "indications": ["Infant colic", "Indigestion"],
+    "images": ["images/products/rapzymedrops/img.jpeg", "images/products/rapzymedrops/img.png"],
+    "alt": "Rap-Zyme Drops – pediatric digestive enzyme drops for infants – by Rapson Remedies",
+    "seo": { "title": "Rap-Zyme Drops | Pediatric Digestive Enzyme", "description": "Supports healthy digestion in infants.", "keywords": ["Rap-Zyme Drops"] }
+  },
+  {
+    "id": 6,
+    "name": "Rap-Zyme Syrup",
+    "slug": "rapZymeSyrup",
+    "category": "Digestive Enzyme",
+    "composition": "Digestive Enzymes",
+    "indications": ["Indigestion", "Loss of appetite"],
+    "images": ["images/products/rapzymesyrup/img.jpeg", "images/products/rapzymesyrup/img.png"],
+    "alt": "Rap-Zyme Syrup – Digestive enzyme syrup – by Rapson Remedies",
+    "seo": { "title": "Rap-Zyme Syrup | Digestive Aid", "description": "Enhances digestive efficiency.", "keywords": ["Rap-Zyme Syrup"] }
+  },
+  {
+    "id": 7,
+    "name": "Rapilast FX",
+    "slug": "rapilastFx",
+    "category": "Anti-Allergic",
+    "composition": "Montelukast + Fexofenadine",
+    "indications": ["Allergic rhinitis", "Asthma"],
+    "images": ["images/products/rapilastfx/img.jpeg","images/products/rapilastfx/img (1).png", "images/products/rapilastfx/img (2).png", "images/products/rapilastfx/img (3).png", "images/products/rapilastfx/img (4).png"],
+    "alt ": "Rapilast FX – Montelukast Fexofenadine anti-allergic tablet – by Rapson Remedies",
+    "seo": { "title": "Rapilast FX Tablet | Allergy Relief", "description": "Non-sedative allergy and asthma control.", "keywords": ["Rapilast FX"] }
+  },
+  {
+    "id": 8,
+    "name": "Raporil-D",
+    "slug": "raporilD",
+    "category": "Respiratory",
+    "composition": "Dextromethorphan + CPM + Phenylephrine",
+    "indications": ["Dry cough", "Cold"],
+    "images": ["images/products/raporild/img.jpeg", "images/products/raporild/img.png"],
+    "alt": "Raporil-D – Dextromethorphan CPM Phenylephrine cough syrup – by Rapson Remedies",
+    "seo": { "title": "Raporil-D Syrup | Cough Relief", "description": "Fast relief from dry cough and cold.", "keywords": ["Raporil-D"] }
+  },
+  {
+    "id": 9,
+    "name": "Raporil-LS",
+    "slug": "raporilLS",
+    "category": "Respiratory",
+    "composition": "Levosalbutamol + Ambroxol + Guaifenesin",
+    "indications": ["Productive cough"],
+    "images": ["images/products/raporills/img.jpeg", "images/products/raporills/img.png"],
+    "alt": "Raporil-LS – Levosalbutamol Ambroxol Guaifenesin expectorant – by Rapson Remedies",
+    "seo": { "title": "Raporil-LS Syrup | Bronchodilator & Expectorant", "description": "Relieves productive cough.", "keywords": ["Raporil-LS"] }
+  },
+  {
+    "id": 10,
+    "name": "Nollergy-L",
+    "slug": "nollergyLSusp",
+    "category": "Anti-Allergic",
+    "composition": "Levocetirizine + Montelukast",
+    "indications": ["Allergic rhinitis"],
+    "images": ["images/products/nollergyl/img.jpeg","images/products/nollergyl/img (1).png", "images/products/nollergyl/img (2).png", "images/products/nollergyl/img (3).png", "images/products/nollergyl/img (4).png"],
+    "alt": "Nollergy-L – Levocetirizine Montelukast anti-allergic tablet – by Rapson Remedies",
+    "seo": { "title": "Nollergy-L Tablet | Allergy Relief", "description": "Effective anti-allergic combination.", "keywords": ["Nollergy-L"] }
+  },
+  {
+    "id": 11,
+    "name": "Rapoliv Suspension",
+    "slug": "rapolivSusp",
+    "category": "Liver Care",
+    "composition": "Silymarin + Lecithin + B-Complex",
+    "indications": ["Fatty liver", "Hepatitis"],
+    "images": ["images/products/rapoliv/img.jpeg","images/products/rapoliv/img (1).png", "images/products/rapoliv/img (2).png", "images/products/rapoliv/img (3).png"],
+    "alt": "Rapoliv – Silymarin Lecithin B-Complex liver tonic syrup – by Rapson Remedies",
+    "seo": { "title": "Rapoliv Syrup | Liver Tonic", "description": "Protects and restores liver function.", "keywords": ["Rapoliv"] }
+  },
+  {
+    "id": 12,
+    "name": "Rapavit-L",
+    "slug": "rapavitL",
+    "category": "Nutrition",
+    "composition": "Multivitamin + Multimineral",
+    "indications": ["Weakness", "Fatigue"],
+    "images": ["images/products/rapavitl/img.jpeg", "images/products/rapavitl/img.png" ],
+    "alt": "Rapavit-L – Multivitamin Multimineral immunity booster suspension – by Rapson Remedies",
+    "seo": { "title": "Rapavit-L Suspension | Immunity Booster", "description": "Enhances stamina and immunity.", "keywords": ["Rapavit-L"] }
+  },
+  {
+    "id": 13,
+    "name": "Rapavit-Strong",
+    "slug": "rapavitStrong",
+    "category": "Nutrition",
+    "composition": "Astaxanthin + Multivitamin",
+    "indications": ["Fatigue", "Immunity"],
+    "images": ["images/products/rapavitstrong/img.jpeg", "images/products/rapavitstrong/img.png" ],
+    "alt": "Rapavit-Strong – Antioxidant Multivitamin tablet – by Rapson Remedies",
+    "seo": { "title": "Rapavit-Strong Tablet | Antioxidant Formula", "description": "Powerful antioxidant supplement.", "keywords": ["Rapavit-Strong"] }
+  },
+  {
+    "id": 14,
+    "name": "Qukcal Tablets",
+    "slug": "qukcalTab",
+    "category": "Nutrition",
+    "composition": "Calcium + Magnesium + Zinc + Vitamin D3",
+    "indications": ["Bone health", "Calcium deficiency"],
+    "alt": "Qukcal – Calcium Magnesium Zinc Vitamin D3 tablet – by Rapson Remedies",
+    "images": ["images/products/qukcalTab/img.jpeg", "images/products/qukcalTab/img.png"],
+    "seo": { "title": "Qukcal Tablet | Bone Health Supplement", "description": "Supports strong bones and joints.", "keywords": ["Qukcal"] }
+  },
+  {
+    "id": 15,
+    "name": "Qukcal-60K",
+    "slug": "qukcal60K",
+    "category": "Nutrition",
+    "composition": "Cholecalciferol 60000 IU",
+    "indications": ["Vitamin D deficiency"],
+    "alt": "Qukcal-60K – High-dose Vitamin D3 softgel capsule – by Rapson Remedies",
+    "images": ["images/products/qukcal60kTab/img.jpeg", "images/products/qukcal60kTab/img.png"],
+    "seo": { "title": "Qukcal-60K Softgel | Vitamin D3", "description": "High-dose vitamin D3 supplement.", "keywords": ["Qukcal-60K"] }
+  },
+  {
+    "id": 16,
+    "name": "Quk D3 Drops",
+    "slug": "qukD3Drops",
+    "category": "Nutrition",
+    "composition": "Vitamin D3 Drops",
+    "indications": ["Vitamin D deficiency"],
+    "alt": "Quk D3 Drops – Vitamin D3 supplement drops – by Rapson Remedies",
+    "images": ["images/products/qukd3/img.jpeg", "images/products/qukd3/img.png"],
+    "seo": { "title": "Quk D3 Drops | Vitamin D Supplement", "description": "Supports bone & immune health.", "keywords": ["Quk D3"] }
+  },
+  {
+    "id": 17,
+    "name": "Irorap-XT Tablets",
+    "slug": "irorapXtTab",
+    "category": "Hematinc",
+    "composition": "Ferrous Bisglycinate + Folic Acid + B12",
+    "indications": ["Anemia"],
+    "alt": "Irorap-XT – Iron Folic Acid B12 hematinic tablet – by Rapson Remedies",
+    "images": ["images/products/irorapxttab/img.jpeg", "images/products/irorapxttab/img.png"],
+    "seo": { "title": "Irorap-XT Tablet | Iron Supplement", "description": "Improves hemoglobin levels.", "keywords": ["Irorap-XT"] }
+  },
+  {
+    "id": 18,
+    "name": "Irorap-XT Suspension",
+    "slug": "irorapXtSusp",
+    "category": "Hematinc",
+    "composition": "Iron + Folic Acid + B12",
+    "indications": ["Anemia"],
+    "alt": "Irorap-XT – Iron Folic Acid B12 hematinic syrup – by Rapson Remedies",
+    "images": ["images/products/irorapxtsusp/img.jpeg", "images/products/irorapxtsusp/img (2).png"],
+    "seo": { "title": "Irorap-XT Syrup | Iron Tonic", "description": "Iron supplement for anemia.", "keywords": ["Irorap-XT Syrup"] }
+  },
+  {
+    "id": 19,
+    "name": "Cf-Nuron Plus",
+    "slug": "cfNuronPlusTab",
+    "category": "Neurology",
+    "composition": "Neurotropic vitamins & antioxidants",
+    "indications": ["Neuropathy"],
+    "alt": "Cf-Nuron Plus – Neurotropic vitamins and antioxidants supplement tablet – by Rapson Remedies",
+    "images": ["images/products/cfnuron/img.jpeg","images/products/cfnuron/img (1).png", "images/products/cfnuron/img (2).png", "images/products/cfnuron/img (3).png", "images/products/cfnuron/img (4).png"],
+    "seo": { "title": "Cf-Nuron Plus | Neuropathy Supplement", "description": "Supports nerve health.", "keywords": ["Cf-Nuron"] }
+  },
+  {
+    "id": 20,
+    "name": "Rapmox CV-625",
+    "slug": "rapmoxCv625",
+    "category": "Antibiotic",
+    "composition": "Amoxicillin + Clavulanic Acid",
+    "indications": ["Respiratory infections", "UTI"],
+    "alt": "Rapmox CV-625 – Amoxicillin Clavulanic Acid broad spectrum antibiotic tablet – by Rapson Remedies",
+    "images": ["images/products/rapmoxcv/img.jpeg", "images/products/rapmoxcv/img.png"],
+    "seo": { "title": "Rapmox CV-625 | Broad Spectrum Antibiotic", "description": "Powerful antibacterial protection.", "keywords": ["Rapmox CV"] }
+  },
+  {
+    "id": 21,
+    "name": "Ceforap Dispersible Tablet",
+    "slug": "ceforap100_200_400DT",
+    "category": "Antibiotic",
+    "composition": "Cefixime 100/200/400 mg",
+    "indications": ["UTI", "Typhoid"],
+    "alt": "Ceforap DT – Cefixime dispersible tablet antibiotic – by Rapson Remedies",
+    "images": ["images/products/ceforapdt/img.jpeg", "images/products/ceforapdt/img2.jpeg", "images/products/ceforapdt/img3.jpeg","images/products/ceforapdt/img (1).png", "images/products/ceforapdt/img (2).png" ],
+    "seo": { "title": "Ceforap Dispersible Tablet  | Cefixime Antibiotic", "description": "Safe & effective antibiotic.", "keywords": ["Ceforap DT","Cefixime 100/200/400 mg "] }
+  },
+  {
+    "id": 22,
+    "name": "Ceforap Oral Suspension",
+    "slug": "ceforapOralSuspension",
+    "category": "Antibiotic",
+    "composition": "Cefixime 50/100 mg",
+    "indications": ["Pediatric infections"],
+    "alt": "Ceforap Syrup – Cefixime pediatric antibiotic suspension – by Rapson Remedies",
+    "images": ["images/products/ceforapos/img.jpeg", "images/products/ceforapos/img1.jpeg", "images/products/ceforapos/img.png"],
+    "seo": { "title": "Ceforap Syrup | Pediatric Antibiotic", "description": "Effective treatment for infections.", "keywords": ["Ceforap Syrup", "Cefixime 50/100 mg "] }
+  },
+  {
+    "id": 23,
+    "name": "Ceforap-O",
+    "slug": "ceforapO",
+    "category": "Antibiotic",
+    "composition": "Ofloxacin + Cefixime",
+    "indications": ["Typhoid"],
+    "alt": "Ceforap-O – Ofloxacin Cefixime dual antibiotic tablet – by Rapson Remedies",
+    "images": ["images/products/ceforapo/img.jpeg","images/products/ceforapo/img (1).png", "images/products/ceforapo/img (2).png"],
+    "seo": { "title": "Ceforap-O Tablet | Dual Antibiotic", "description": "Synergistic antibacterial therapy.", "keywords": ["Ceforap-O"] }
+  },
+  {
+    "id": 24,
+    "name": "Rapdox-200",
+    "slug": "rapdox200",
+    "category": "Antibiotic",
+    "composition": "Cefpodoxime",
+    "indications": ["Bacterial infections"],
+    "alt": "Rapdox-200 – Cefpodoxime broad spectrum antibiotic tablet – by Rapson Remedies",
+    "images": ["images/products/rapdox200/img.jpeg","images/products/rapdox200/img.png"],
+    "seo": { "title": "Rapdox-200 Tablet | Cefpodoxime", "description": "Broad-spectrum antibiotic.", "keywords": ["Rapdox-200"] }
+  },
+  {
+    "id": 25,
+    "name": "Rapdox Dry Syrup 50/100",
+    "slug": "rapdoxDrySyrup50-100",
+    "category": "Antibiotic",
+    "composition": "Cefpodoxime",
+    "indications": ["Pediatric infections"],
+    "alt": "Rapdox Dry Syrup – Cefpodoxime pediatric antibiotic suspension – by Rapson Remedies",
+    "images": [ "images/products/rapdoxds/img.jpeg", "images/products/rapdoxds/img1.jpeg","images/products/rapdoxds/img (1).png","images/products/rapdoxds/img (2).png"],
+    "seo": { "title": "Rapdox Dry Syrup | Pediatric Antibiotic", "description": "Effective pediatric antibiotic.", "keywords": ["Rapdox Dry Syrup"] }
+  },
+  {
+    "id": 26,
+    "name": "Linozid-600",
+    "slug": "linozid600",
+    "category": "Antibiotic",
+    "composition": "Linezolid 600 mg",
+    "indications": ["Serious gram-positive infections"],
+    "alt": "Linozid-600 – Linezolid antibiotic tablet – by Rapson Remedies",
+    "images": ["images/products/linozid600/img.jpeg","images/products/linozid600/img (1).png", "images/products/linozid600/img (2).png"],
+    "seo": { "title": "Linozid-600 Tablet | Linezolid Antibiotic", "description": "Advanced antibiotic therapy.", "keywords": ["Linozid-600"] }
+  },
+  {
+    "id": 27,
+    "name": "Rapdol-SP",
+    "slug": "rapdolSP",
+    "category": "Pain Management",
+    "composition": "Aceclofenac + Paracetamol + Serratiopeptidase",
+    "indications": ["Pain", "Inflammation"],
+    "alt": "Rapdol-SP – Aceclofenac Paracetamol Serratiopeptidase pain relief tablet – by Rapson Remedies",
+    "images": ["images/products/rapdolsp/img.jpeg","images/products/rapdolsp/img (1).png", "images/products/rapdolsp/img (2).png"],
+    "seo": { "title": "Rapdol-SP Tablet | Pain Relief", "description": "Fast pain and inflammation relief.", "keywords": ["Rapdol-SP"] }
+  },
+  {
+    "id": 28,
+    "name": "Rapdol-P",
+    "slug": "rapdolP",
+    "category": "Pain Management",
+    "composition": "Aceclofenac + Paracetamol",
+    "indications": ["Pain"],
+    "alt": "Rapdol-P – Aceclofenac Paracetamol analgesic tablet – by Rapson Remedies",
+    "images": ["images/products/rapdolp/img.jpeg","images/products/rapdolp/img (1).png", "images/products/rapdolp/img (2).png", "images/products/rapdolp/img (3).png", "images/products/rapdolp/img (4).png"],
+    "seo": { "title": "Rapdol-P Tablet | Analgesic", "description": "Effective pain relief.", "keywords": ["Rapdol-P"] }
+  },
+  {
+    "id": 29,
+    "name": "Rapdol-TH4 Plus",
+    "slug": "rapdolTH4Plus",
+    "category": "Pain Management",
+    "composition": "Aceclofenac + Paracetamol + Thiocolchicoside",
+    "indications": ["Muscle spasm", "Pain"],
+    "alt": "Rapdol-TH4 Plus – Aceclofenac Paracetamol Thiocolchicoside muscle relaxant tablet – by Rapson Remedies",
+    "images": ["images/products/rapdolth4/img.jpeg", "images/products/rapdolth4/img.png"],
+    "seo": { "title": "Rapdol-TH4 Plus | Muscle Relaxant", "description": "Relieves muscle pain & spasm.", "keywords": ["Rapdol-TH4"] }
+  },
+  {
+    "id": 30,
+    "name": "D-Relief Gel",
+    "slug": "dReliefGel",
+    "category": "Pain Management",
+    "composition": "Diclofenac + Methyl Salicylate + Menthol",
+    "indications": ["Joint pain", "Sprain"],
+    "alt": "D-Relief Gel – Diclofenac Methyl Salicylate Menthol topical pain relief gel – by Rapson Remedies",
+    "images": ["images/products/drelief/img.jpeg", "images/products/drelief/img.png"],
+    "seo": { "title": "D-Relief Gel | Topical Pain Relief", "description": "Fast acting pain relief gel.", "keywords": ["D-Relief"] }
+  },
+  {
+    "id": 31,
+    "name": "Crapibact Ointment",
+    "slug": "crapibactOintment",
+    "category": "Dermatology",
+    "composition": "Mupirocin 2%",
+    "indications": ["Skin infections", "Wounds"],
+    "alt": "Crapibact Ointment – Mupirocin antibacterial skin ointment – by Rapson Remedies",
+    "images": ["images/products/crapibact/img.jpeg", "images/products/crapibact/img2.png"],
+    "seo": { "title": "Crapibact Ointment | Skin Infection Treatment", "description": "Powerful antibacterial ointment.", "keywords": ["Crapibact"] }
+  },
+  {
+    "id": 32,
+    "name": "Qukcal-60K-Shot",
+    "slug": "qukcal60KShot",
+    "category": "Nutrition",
+    "composition": "Cholecalciferol 60000 IU",
+    "indications": ["Vitamin D deficiency"],
+    "alt": "Qukcal-60K Shot – High-dose Vitamin D3 nano shot – by Rapson Remedies",
+    "images": ["images/products/qukcal60kshot/img.jpeg", "images/products/qukcal60kshot/img.png"],
+    "seo": { "title": "Qukcal-60K Shot | Vitamin D3", "description": "High-dose vitamin D3 supplement.", "keywords": ["Qukcal-60K"] }
+  },
+
+  {
+  "id": 33,
+  "name": "Rapaxone-SB",
+  "slug": "rapaxoneSB",
+  "category": "Antibiotic",
+  "composition": "Ceftriaxone 1 g + Sulbactam 500 mg",
+  "indications": [
+    "MDR Typhoid Fever",
+    "Skin & Soft Tissue Infections",
+    "Bone & Joint Infections",
+    "Acute Pyelonephritis",
+    "Pelvic Inflammatory Disease (PID)",
+    "Meningitis",
+    "Endometritis",
+    "Septicemia"
+  ],
+  "alt": "Rapaxone-SB – Ceftriaxone Sulbactam broad spectrum antibiotic injection – by Rapson Remedies",
+  "images": [
+    "images/products/rapaxone/img.jpeg",
+    "images/products/rapaxone/img.png"
+  ],
+  "seo": {
+    "title": "Rapaxone-SB Injection | Ceftriaxone + Sulbactam Antibiotic",
+    "description": "Rapaxone-SB offers broad spectrum antibacterial protection with Ceftriaxone and Sulbactam for serious infections.",
+    "keywords": ["Rapaxone-SB", "Ceftriaxone", "Sulbactam", "Antibiotic Injection"]
+  }
+}
+
+]

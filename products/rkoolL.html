@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Kool-L | Professional Product Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #f4f7fa; color: #333; line-height: 1.6; }
+
+        /* HEADER & NAVBAR */
+        #mainHeader {
+            position: fixed; width: 100%; top: 0; z-index: 1000;
+            background: linear-gradient(120deg, #2664c0, #20c997, #0d2242);
+            background-size: 300% 300%;
+            animation: gradientFlow 18s ease infinite;
+            transition: all 0.4s ease;
+        }
+
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .nav-container {
+            max-width: 1300px; margin: auto; padding: 10px 40px;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+
+        .brand {
+            background: rgba(255, 255, 255, 0.15); padding: 8px 15px;
+            border-radius: 12px; backdrop-filter: blur(8px);
+            display: flex; align-items: center; gap: 12px; text-decoration: none;
+        }
+
+        .brand img { height: 35px; width: auto; }
+        .brand-name { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 20px; color: white; line-height: 1; }
+        .brand-sub { font-size: 9px; color: #eafff6; text-transform: uppercase; letter-spacing: 1px; }
+
+        .catalog-btn {
+            border: 1.5px solid rgba(255,255,255,0.5); color: white;
+            padding: 8px 20px; border-radius: 20px; text-decoration: none;
+            font-size: 14px; font-weight: 600; transition: 0.3s;
+        }
+        .catalog-btn:hover { background: white; color: #0d6efd; }
+
+        /* PAGE CONTENT */
+        .page-wrapper { margin-top: 100px; padding: 40px 20px; max-width: 1250px; margin: 100px auto 60px; }
+
+        .layout-grid {
+            display: grid; grid-template-columns: 450px 1fr;
+            gap: 40px; align-items: start;
+        }
+
+        /* IMAGE SIDEBAR */
+        .image-sidebar { position: sticky; top: 120px; background: white; padding: 30px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
+        .main-display {
+            background: #f8fafc; border-radius: 15px; height: 350px;
+            display: flex; align-items: center; justify-content: center;
+            overflow: hidden; border: 1px solid #edf2f7;
+        }
+        .main-display img { max-height: 90%; max-width: 90%; object-fit: contain; transition: opacity 0.4s; }
+        .thumb-strip { display: flex; gap: 10px; margin-top: 20px; justify-content: center; }
+        .thumb-strip img { width: 65px; height: 65px; border-radius: 10px; border: 2px solid #eee; cursor: pointer; padding: 5px; background: #fff; }
+        .thumb-strip img.active { border-color: #0d6efd; background: #f0f7ff; }
+
+        /* DATA CONTENT */
+        .data-content { background: white; padding: 50px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
+        
+        .badge { display: inline-block; padding: 5px 15px; background: #e0f2fe; color: #0369a1; border-radius: 50px; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px; }
+        
+        h1 { font-family: 'Poppins'; font-size: 42px; color: #0f172a; margin-bottom: 5px; }
+        .tagline { font-size: 18px; color: #64748b; margin-bottom: 30px; }
+
+        .section { margin-bottom: 40px; }
+        .section-h { font-size: 18px; color: #0d6efd; border-bottom: 2px solid #f1f5f9; padding-bottom: 8px; margin-bottom: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        /* INGREDIENTS TABLE */
+        .ing-card { display: flex; gap: 20px; background: #f8fafc; padding: 20px; border-radius: 15px; border: 1px solid #e2e8f0; margin-bottom: 15px; }
+        .ing-card b { color: #0f172a; font-size: 16px; display: block; margin-bottom: 5px; }
+        .ing-card p { font-size: 14px; color: #475569; }
+
+        /* WHAT IT DOES */
+        .mechanism { background: linear-gradient(to right, #ffffff, #f0fdfa); border-left: 5px solid #20c997; padding: 20px; border-radius: 0 15px 15px 0; }
+        
+        /* WHY BETTER */
+        .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .feature-box { padding: 20px; border: 1px solid #eef2f6; border-radius: 15px; transition: 0.3s; }
+        .feature-box:hover { border-color: #20c997; background: #fafffe; }
+        .feature-box h5 { color: #0d2242; margin-bottom: 10px; font-size: 16px; display: flex; align-items: center; gap: 8px; }
+        .feature-box h5::before { content: "★"; color: #f59e0b; }
+        .feature-box p { font-size: 13px; color: #64748b; }
+
+        @media (max-width: 1000px) { .layout-grid { grid-template-columns: 1fr; } .image-sidebar { position: static; } }
+    </style>
+</head>
+<body>
+
+    <header id="mainHeader">
+        <div class="nav-container">
+            <a href="../index.html" class="brand">
+                <img src="../images/logo/rapson-logo.jpg" alt="Logo">
+                <div class="brand-text">
+                    <span class="brand-name">Rapson</span>
+                    <span class="brand-sub">Remedies</span>
+                </div>
+            </a>
+            <a href="../products.html" class="catalog-btn">← Back to Catalog</a>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <div class="layout-grid">
+            
+            <div class="image-sidebar" id="galleryScope">
+                <div class="main-display">
+                    <img src="../images/products/rkool/img (1).png" id="targetImg" alt="R Kool-L Product">
+                </div>
+                <div class="thumb-strip">
+                    <img src="../images/products/rkool/img (1).png" class="active" onclick="jumpTo(0)">
+                    <img src="../images/products/rkool/img (2).png" onclick="jumpTo(1)">
+                    <img src="../images/products/rkool/img (3).png" onclick="jumpTo(2)">
+                    <img src="../images/products/rkool/img (4).png" onclick="jumpTo(3)">
+                </div>
+            </div>
+
+            <div class="data-content">
+                <span class="badge">Advanced Gastroenterology</span>
+                <h1>R Kool-L</h1>
+                <p class="tagline">The dual-action solution for GERD and Gastric Motility.</p>
+
+                <div class="section">
+                    <div class="section-h">Detailed Ingredients</div>
+                    <div class="ing-card">
+                        <div>
+                            <b>Rabeprazole Sodium (20mg)</b>
+                            <p>An enteric-coated Proton Pump Inhibitor (PPI). It works by reducing the amount of acid produced in the stomach, allowing the esophagus to heal and preventing chronic heartburn and acid reflux.</p>
+                        </div>
+                    </div>
+                    <div class="ing-card">
+                        <div>
+                            <b>Levosulpiride (75mg)</b>
+                            <p>A sustained-release prokinetic agent. It increases the movement of the stomach and intestines, ensuring that food moves through the digestive tract faster, effectively reducing bloating and the feeling of fullness.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-h">What it does</div>
+                    <div class="mechanism">
+                        <p><b>R Kool-L</b> addresses the root cause of <b>Gastroesophageal Reflux Disease (GERD)</b>. While Rabeprazole handles the chemical aspect (acid suppression), Levosulpiride handles the mechanical aspect (gut motility). Together, they stop acid from rising and ensure the stomach empties efficiently, providing 24-hour relief.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-h">Why it's better</div>
+                    <div class="feature-grid">
+                        <div class="feature-box">
+                            <h5>Superior PPI Action</h5>
+                            <p>Rabeprazole has a faster onset of action compared to older PPIs like Omeprazole, meaning the patient feels relief sooner.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h5>SR Technology</h5>
+                            <p>The Levosulpiride is in Sustained Release form, maintaining a consistent level of the drug in the bloodstream for all-day comfort.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h5>Dual Path Therapy</h5>
+                            <p>Unlike simple antacids, R Kool-L treats both the symptoms and the mechanical stomach disorders simultaneously.</p>
+                        </div>
+                        <div class="feature-box">
+                            <h5>Excellent Safety Profile</h5>
+                            <p>Levosulpiride is known for having fewer side effects on the central nervous system compared to other prokinetics like Metoclopramide.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-h">Clinical Indications</div>
+                    <ul style="padding-left: 20px; font-size: 15px; color: #475569;">
+                        <li>Hyperacidity & Heartburn</li>
+                        <li>Dyspepsia (Indigestion) with Bloating</li>
+                        <li>Diabetic Gastroparesis</li>
+                        <li>Post-operative Gastric Emptying issues</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let current = 0;
+        let paused = false;
+        const ims = document.querySelectorAll('.thumb-strip img');
+        const display = document.getElementById('targetImg');
+        const scope = document.getElementById('galleryScope');
+
+        function jumpTo(idx) {
+            current = idx;
+            display.style.opacity = 0;
+            setTimeout(() => {
+                display.src = ims[current].src;
+                display.style.opacity = 1;
+                ims.forEach((m, i) => m.classList.toggle('active', i === current));
+            }, 200);
+        }
+
+        let timer = setInterval(() => {
+            if(!paused) {
+                current = (current + 1) % ims.length;
+                jumpTo(current);
+            }
+        }, 3500);
+
+        scope.onmouseenter = () => paused = true;
+        scope.onmouseleave = () => paused = false;
+
+        document.onkeydown = (e) => {
+            if(e.key === "ArrowRight") jumpTo((current + 1) % ims.length);
+            if(e.key === "ArrowLeft") jumpTo((current - 1 + ims.length) % ims.length);
+        }
+    </script>
+</body>
+</html>

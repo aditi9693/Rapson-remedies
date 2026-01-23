@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products | Rapson Remedies Pvt. Ltd.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+
+
+<header id="mainHeader">
+  <div class="nav-container">
+
+    <div class="brand">
+      <img src="images/logo/rapson-logo.jpg" alt="Rapson Logo">
+      <div class="brand-text">
+        <span class="brand-name">RAPSON</span>
+        <span class="brand-sub">REMEDIES PVT. LTD.</span>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/products.html">Products</a>
+      <a href="index.html#contact">Contact</a>
+
+    </nav>
+
+    <div class="nav-socials">
+      <a href="#">in</a>
+      <a href="#">f</a>
+      <a href="#">x</a>
+      <a href="#">▶</a>
+    </div>
+
+  </div>
+</header>
+
+<section class="product-section" id="products">
+
+  <h2>Our Product Portfolio</h2>
+
+  <input type="text" id="searchBox" placeholder="Search medicines...">
+
+  <div class="product-filters">
+    <button data-category="All" class="active">All</button>
+    <button data-category="Gastro">Gastro</button>
+    <button data-category="Anti-Allergic">Anti-Allergic</button>
+    <button data-category="Liver Care">Liver Care</button>
+    <button data-category="Digestive Enzyme">Digestive Enzyme</button>
+    <button data-category="Nutrition">Nutrition</button>
+    <button data-category="Hematinc">Hematinc</button>
+    <button data-category="Antibiotic">Antibiotic</button>
+    <button data-category="Pain Management">Pain Management</button>
+    <button data-category="Dermatology">Dermatology</button>
+    <div class="filter-indicator"></div>
+  </div>
+
+  <div class="product-grid" id="productGrid"></div>
+
+  <div class="pagination" id="pagination"></div>
+
+</section>
+
+<script src="js/products.js"></script>
+
+<!-- QUICK VIEW MODAL -->
+<div class="quick-view-overlay" id="quickViewOverlay" style="display:none;">
+  <div class="quick-view-modal">
+    <button class="close-modal" onclick="closeQuickView()">✕</button>
+    <div class="quick-view-content" id="quickViewContent"></div>
+  </div>
+</div>
+
+
+</body>
+</html>
