@@ -6,12 +6,11 @@
   <meta name="description" content="About Rapson Remedies Pvt. Ltd. – a fast-growing pharmaceutical company committed to quality healthcare solutions.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/about.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
-
-
 <header id="mainHeader">
   <div class="nav-container">
 
@@ -30,17 +29,19 @@
       <a href="/index.html#contact">Contact</a>
     </nav>
 
-    <div class="nav-socials">
-      <a href="#">in</a>
-      <a href="#">f</a>
-      <a href="#">x</a>
-      <a href="#">▶</a>
+  
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+      <div class="nav-socials">
+        <a href="#">in</a>
+        <a href="#">f</a>
+        <a href="#">x</a>
+        <a href="#">▶</a>
+      </div>
     </div>
 
   </div>
 </header>
-
-
 
 <section class="about-hero">
   <h1>About Rapson Remedies</h1>
@@ -112,5 +113,17 @@
   <p>© 2026 Rapson Remedies Pvt. Ltd. All Rights Reserved.</p>
 </footer>
 
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('show');
+  });
+</script>
 </body>
+
+</body>
+
+
 </html>

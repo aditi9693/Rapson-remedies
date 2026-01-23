@@ -236,3 +236,10 @@ window.addEventListener("scroll", () => {
   const scrolled = (winScroll / height) * 100;
   document.getElementById("progressBar").style.width = scrolled + "%";
 });
+
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
+
+toggle.addEventListener('click', () => {
+  nav.classList.toggle('show');
+});

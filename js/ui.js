@@ -54,16 +54,17 @@ fetch('/data/products.json')
       const images = p.images.map(img => `<img src="${img}" class="product-img">`).join("");
 
       grid.innerHTML += `
-        <div class="product-card">
-          <div class="product-img-box">${images}</div>
-          <div class="product-info">
-            <h3>${p.name}</h3>
-            <p>${p.composition}</p>
-            <span class="tag">${p.category}</span>
-          </div>
-          <a href="#" class="view-btn">View Details</a>
-        </div>
-      `;
+  <div class="product-card" data-slug="${p.slug}">
+    <div class="product-img-box">${images}</div>
+    <div class="product-info">
+      <h3>${p.name}</h3>
+      <p>${p.composition}</p>
+      <span class="tag">${p.category}</span>
+    </div>
+    <a href="/products/${p.slug}.html" class="view-btn">View Details</a>
+  </div>
+`;
+
     });
 
     initImageSliders();
