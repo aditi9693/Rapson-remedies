@@ -179,3 +179,100 @@ document.querySelector('.menu-toggle')
     document.querySelector('.nav-links')
       .classList.toggle('show');
 });
+ // why choose rapson
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const slides = document.querySelectorAll('.why-slide');
+    let current = 0;
+    let counterStarted = false;
+
+    if(slides.length === 0){
+        console.error("No slides found. Check .why-slide class.");
+        return;
+    }
+
+    function showSlide(index){
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[index].classList.add('active');
+
+        if(index === 1 && !counterStarted){
+            animateCounter();
+            counterStarted = true;
+        }
+    }
+
+    function nextSlide(){
+        current = (current + 1) % slides.length;
+        showSlide(current);
+    }
+
+    showSlide(0); // start first slide
+
+    setInterval(nextSlide, 5000);
+
+
+    /* 92% COUNTER */
+    function animateCounter(){
+        let count = 0;
+        const target = 92;
+        const el = document.getElementById('counter');
+
+        if(!el) return;
+
+        const timer = setInterval(() => {
+            count++;
+            el.innerText = count;
+            if(count >= target) clearInterval(timer);
+        }, 25);
+    }
+
+
+    /* SCROLL TRIGGER */
+    const section = document.getElementById("whyChoose");
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                showSlide(0);
+            }
+        });
+    }, { threshold: 0.4 });
+
+    observer.observe(section);
+
+
+    /* PARALLAX */
+    document.addEventListener("mousemove", e => {
+        document.querySelectorAll('.parallax').forEach(el => {
+            const speed = 0.04;
+            const x = (window.innerWidth / 2 - e.clientX) * speed;
+            const y = (window.innerHeight / 2 - e.clientY) * speed;
+            el.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+
+});
+
+
+
+
+const slides = document.querySelectorAll('.trust-slide');
+let index = 0;
+
+function showSlide(i){
+    slides.forEach(s => s.classList.remove('active'));
+    slides[i].classList.add('active');
+}
+
+showSlide(0);
+
+setInterval(() => {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+}, 4200);
+
+
+
