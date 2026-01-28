@@ -121,7 +121,7 @@ buttons.forEach(btn => {
     const cat = btn.dataset.category;
     filteredProducts = cat === "All"
       ? allProducts
-      : allProducts.filter(p => p.category === cat);
+      : allProducts.filter(p => p.category.includes(cat));
 
     currentPage = 1;
     render();

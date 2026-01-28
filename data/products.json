@@ -198,7 +198,8 @@
     "id": 19,
     "name": "Cf-Nuron Plus",
     "slug": "cfNuronPlusTab",
-    "category": "Neurology",
+    "category": ["Neurology", "Nutrition"],
+    
     "composition": "Neurotropic vitamins & antioxidants",
     "indications": ["Neuropathy"],
     "alt": "Cf-Nuron Plus – Neurotropic vitamins and antioxidants supplement tablet – by Rapson Remedies",
